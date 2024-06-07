@@ -26,7 +26,7 @@ const { title } = Astro.props;
 import { ViewTransitions } from "astro:transitions";
 import preload from "astro-preload";
 import Glow from "../components/Glow";
-const makeTitle = title ? title : "Sandeepa Bandara";
+const makeTitle = title ? title : "Sandeepa";
 ---
 
 <!doctype html>
@@ -35,7 +35,7 @@ const makeTitle = title ? title : "Sandeepa Bandara";
     <meta charset="UTF-8" />
     <meta
       name="description"
-      content="Sandeepa Bandara - Full Stack Developer. Explore my portfolio showcasing expertise in Astro, React.js, and Tailwind CSS. Specializing in clean code, responsive design, and user-centric experiences. With a strong command of JavaScript, HTML, CSS, and Node.js, I bring a proven track record of delivering high-quality software solutions. Let's connect and discuss how I can elevate your web development projects."
+      content="Sandeepa Bandara - Full Stack Web Developer. Explore my portfolio showcasing expertise in Astro, React.js, and Tailwind CSS. Specializing in clean code, responsive design, and user-centric experiences. With a strong command of JavaScript, HTML, CSS, and Node.js, I bring a proven track record of delivering high-quality software solutions. Let's connect and discuss how I can elevate your web development projects."
     />
     <meta
       name="keywords"
@@ -44,7 +44,7 @@ const makeTitle = title ? title : "Sandeepa Bandara";
     <meta name="author" content="Sandeepa Bandara" />
     <meta name="theme-color" content="#0a0a0a" />
     <meta name="viewport" content="width=device-width" />
-    
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
     <meta
       name="google-site-verification"
       content="AuMlxg6HJG3Rwtp1H81O3OmPVW4WaI5jrk1X4Onm0hU"
@@ -52,31 +52,29 @@ const makeTitle = title ? title : "Sandeepa Bandara";
     <meta name="generator" content={Astro.generator} />
     <SEO
       title={makeTitle}
-      description="A portfolio website built with latest technologies by Rohit Kushwaha"
+      description="A portfolio website built with latest technologies by Sandeepa Bandara"
       canonical={canonicalURL}
       twitter={{
-        creator: "@rohitk_06",
-        site: "@rohitk_06",
+        creator: "@sandeepabandara",
+        site: "@andeepabandara",
         card: "summary_large_image",
       }}
       openGraph={{
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Rohit Kushwaha`,
+          title: `Sandeepa Bandara`,
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "Rohit Kushwaha",
+          alt: "Sandeepa Bandara",
         },
         optional: {
-          description: `A portfolio website built with latest technologies by Rohit Kushwaha`,
+          description: `A portfolio website built with latest technologies by Sandeepa Bandara`,
         },
       }}
     />
-    <script
-      type="text/partytown"
-      src="https://www.googletagmanager.com/gtag/js?id=G-S9TKKTL84G"></script>
+  
     <script type="text/partytown">
       window.dataLayer = window.dataLayer || [];
       function gtag() {
